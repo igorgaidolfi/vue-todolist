@@ -6,4 +6,8 @@
 main{
     background-color: #18675b;
     height: 100vh;
+    overflow-y: auto;
+}
+.bg-pink{
+    background-color: #FF5CB0;
 }
