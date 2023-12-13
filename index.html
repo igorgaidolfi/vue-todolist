@@ -28,7 +28,7 @@
                     <div class="add-text mb-4">
                         <div class="row">
                             <div class="col-10">
-                                <input type="text" class="form-control" placeholder="Inserisci un nuovo evento" v-model="new_text">
+                                <input type="text" class="form-control" placeholder="Inserisci un nuovo evento" v-model="new_text" @keyup.enter="addtoDo">
                             </div>
                             <div class="col-2">
                                 <button class="btn btn-square btn-info float-end" @click="addtoDo"><i class="fa-solid fa-plus"></i></button>
