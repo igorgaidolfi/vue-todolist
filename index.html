@@ -20,7 +20,8 @@
                                     {{todo.text}}
                                 </span>
                                 <div>
-                                    <button class="btn btn-sm btn-square btn-danger" @click="removeTodo(index)"><i class="fa-solid fa-xmark"></i></button>
+                                    <button class="btn btn-sm btn-square me-1" @click="todo.done = !todo.done" :class="todo.done ? 'btn-dark' : 'btn-primary'"><i class="fa-solid fa-check"></i></button>
+                                    <button class="btn btn-sm btn-square btn-danger me-1" @click="removeTodo(index)" ><i class="fa-solid fa-xmark"></i></button>
                                 </div>
                             </div>
                         </li>

@@ -10,7 +10,7 @@ createApp({
                 },
                 {
                     text: 'Lavare la tovaglia',
-                    done: true
+                    done: false
                 },
                 {
                     text: 'Preparare la valigia',
@@ -18,7 +18,7 @@ createApp({
                 },
                 {
                     text: 'Comprare un vasetto di miele',
-                    done: true
+                    done: false
                 },
                 {
                     text: 'Aggiustare i cavi della luce',
